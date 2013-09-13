@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'source_sans_pro';
+    src: asset-url('sourcesanspro-extralight-eot.eot');
+    src: asset-url('sourcesanspro-extralight-eot.eot?#iefix') format('embedded-opentype'),
+         asset-url('sourcesanspro-extralight-woff.woff') format('woff'),
+         asset-url('sourcesanspro-extralight-ttf.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: asset-url('sourcesanspro-extralightit-eot.eot');
+    src: asset-url('sourcesanspro-extralightit-eot.eot?#iefix') format('embedded-opentype'),
+         asset-url('sourcesanspro-extralightit-woff.woff') format('woff'),
+         asset-url('sourcesanspro-extralightit-ttf.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: asset-url('sourcesanspro-light-eot.eot');
+    src: asset-url('sourcesanspro-light-eot.eot?#iefix') format('embedded-opentype'),
+         asset-url('sourcesanspro-light-woff.woff') format('woff'),
+         asset-url('sourcesanspro-light-ttf.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: asset-url('sourcesanspro-lightit-eot.eot');
+    src: asset-url('sourcesanspro-lightit-eot.eot?#iefix') format('embedded-opentype'),
+         asset-url('sourcesanspro-lightit-woff.woff') format('woff'),
+         asset-url('sourcesanspro-lightit-ttf.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: asset-url('sourcesanspro-regular-eot.eot');
+    src: asset-url('sourcesanspro-regular-eot.eot?#iefix') format('embedded-opentype'),
+         asset-url('sourcesanspro-regular-woff.woff') format('woff'),
+         asset-url('sourcesanspro-regular-ttf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: asset-url('sourcesanspro-it-eot.eot');
+    src: asset-url('sourcesanspro-it-eot.eot?#iefix') format('embedded-opentype'),
+         asset-url('sourcesanspro-it-woff.woff') format('woff'),
+         asset-url('sourcesanspro-it-ttf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: asset-url('sourcesanspro-bold-eot.eot');
+    src: asset-url('sourcesanspro-bold-eot.eot?#iefix') format('embedded-opentype'),
+         asset-url('sourcesanspro-bold-woff.woff') format('woff'),
+         asset-url('sourcesanspro-bold-ttf.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: asset-url('sourcesanspro-boldit-eot.eot');
+    src: asset-url('sourcesanspro-boldit-eot.eot?#iefix') format('embedded-opentype'),
+         asset-url('sourcesanspro-boldit-woff.woff') format('woff'),
+         asset-url('sourcesanspro-boldit-ttf.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: asset-url('sourcesanspro-semibold-eot.eot');
+    src: asset-url('sourcesanspro-semibold-eot.eot?#iefix') format('embedded-opentype'),
+         asset-data-uri('sourcesanspro-semibold-woff.woff') format('woff'),
+         asset-url('sourcesanspro-semibold-ttf.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: asset-url('sourcesanspro-semiboldit-eot.eot');
+    src: asset-url('sourcesanspro-semiboldit-eot.eot?#iefix') format('embedded-opentype'),
+         asset-url('sourcesanspro-semiboldit-woff.woff') format('woff'),
+         asset-url('sourcesanspro-semiboldit-ttf.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: asset-url('sourcesanspro-black-eot.eot');
+    src: asset-url('sourcesanspro-black-eot.eot?#iefix') format('embedded-opentype'),
+         asset-url('sourcesanspro-black-woff.woff') format('woff'),
+         asset-url('sourcesanspro-black-ttf.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: asset-url('sourcesanspro-blackit-eot.eot');
+    src: asset-url('sourcesanspro-blackit-eot.eot?#iefix') format('embedded-opentype'),
+         asset-url('sourcesanspro-blackit-woff.woff') format('woff'),
+         asset-url('sourcesanspro-blackit-ttf.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
