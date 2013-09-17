@@ -42,7 +42,7 @@
     font-family: 'source_sans_pro';
     src: asset-url('sourcesanspro-regular-eot.eot');
     src: asset-url('sourcesanspro-regular-eot.eot?#iefix') format('embedded-opentype'),
-         asset-url('sourcesanspro-regular-woff.woff') format('woff'),
+         asset-data-uri('sourcesanspro-regular-woff.woff') format('woff'),
          asset-url('sourcesanspro-regular-ttf.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
