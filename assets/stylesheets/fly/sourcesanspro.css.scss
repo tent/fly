@@ -58,15 +58,15 @@
     font-style: italic;
 }
 
-@font-face {
-    font-family: 'source_sans_pro';
-    src: asset-url('sourcesanspro-bold-eot.eot');
-    src: asset-url('sourcesanspro-bold-eot.eot?#iefix') format('embedded-opentype'),
-         asset-url('sourcesanspro-bold-woff.woff') format('woff'),
-         asset-url('sourcesanspro-bold-ttf.ttf') format('truetype');
-    font-weight: bolder;
-    font-style: normal;
-}
+// @font-face {
+//     font-family: 'source_sans_pro';
+//     src: asset-url('sourcesanspro-bold-eot.eot');
+//     src: asset-url('sourcesanspro-bold-eot.eot?#iefix') format('embedded-opentype'),
+//          asset-url('sourcesanspro-bold-woff.woff') format('woff'),
+//          asset-url('sourcesanspro-bold-ttf.ttf') format('truetype');
+//     font-weight: bolder;
+//     font-style: normal;
+// }
 
 @font-face {
     font-family: 'source_sans_pro';
