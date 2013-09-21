@@ -233,12 +233,12 @@ $nav-pills-active-link-hover-color:         #fff !default;
 // -------------------------
 
 $pagination-bg:                        #fff !default;
-$pagination-border:                    #ddd !default;
+$pagination-border:                    #fff !default; // customized
 
 $pagination-hover-bg:                  $gray-lighter !default;
 
-$pagination-active-bg:                 $brand-primary !default;
-$pagination-active-color:              #fff !default;
+$pagination-active-bg:                 #fff !default; // customized
+$pagination-active-color:              $gray !default; // customized
 
 $pagination-disabled-color:            $gray-light !default;
 
