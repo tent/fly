@@ -19,6 +19,30 @@ html {
   }
 }
 
+.btn {
+  display: inline-block;
+  border: 2px solid $btnBorderColor;
+  border-radius: 4px;
+  font-size: 1.125em;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  margin: 0.25em;
+
+  &:hover {
+    border-color: lighten($btnBorderColor, 8%);
+  }
+
+  &.fill {
+    border-color: $btnFillColor;
+    background-color: $btnFillColor;
+
+    &:hover {
+      border-color: darken($btnFillColor, 4%);
+      background-color: darken($btnFillColor, 4%);
+    }
+  }
+}
+
 // Layout
 
 .container-outer {
