@@ -1,5 +1,7 @@
 @import "fly/bootstrap/normalize";
 @import "fly/sourcesanspro";
+@import "fly/variables";
+@import "fly/mixins";
 
 html {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -7,3 +9,31 @@ html {
   font-weight: 400;
   line-height: 1em;
 }
+
+.fill {
+  background-color: $darkColor;
+  color: $lightColor;
+
+  a {
+    color: $lightColor;
+  }
+}
+
+// Layout
+
+.container-outer {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+  .container-inner {
+    position: relative;
+    display: block;
+    max-width: $maxContentWidth;
+    margin: 0 auto;
+  }
+
+    .content {
+      @include clearfix();
+    }

@@ -1,0 +1,7 @@
+$darkColor: #16171d !default;
+$lightColor: #ffffff !default;
+
+$navInactiveColor: darken($lightColor, 20%) !default;
+$navActiveColor: $lightColor;
+
+$maxContentWidth: 960px !default;
