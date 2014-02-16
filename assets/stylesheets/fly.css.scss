@@ -88,3 +88,16 @@ html {
 .pull-right {
   float: right;
 }
+
+/*
+ * Responsiveness
+ */
+
+@media #{$mediumBreakPoint} {
+  .container-inner {
+    margin: 0;
+    max-width: none;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}

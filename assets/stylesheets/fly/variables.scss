@@ -5,3 +5,5 @@ $navInactiveColor: darken($lightColor, 20%) !default;
 $navActiveColor: $lightColor;
 
 $maxContentWidth: 960px !default;
+
+$mediumBreakPoint: "screen and (max-width: 1152px)";
