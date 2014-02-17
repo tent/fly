@@ -256,6 +256,34 @@ footer .nav-h {
   }
 }
 
+.nav-list {
+  > ul {
+    list-style: none;
+    padding: 0;
+
+    > li {
+      > a {
+        display: block;
+        padding: 0.5em 1em;
+      }
+
+      &.nav-header {
+        margin-left: 1em;
+        font-weight: 600;
+        color: $navHeaderColor;
+        margin-bottom: 1em;
+      }
+
+      &.active {
+        background-color: lighten($sidebarBorderColor, 4%);
+        > a {
+          color: $navActiveColor;
+        }
+      }
+    }
+  }
+}
+
 .pull-left {
   float: left;
 }

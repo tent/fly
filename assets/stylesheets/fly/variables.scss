@@ -7,6 +7,9 @@ $primaryColor: $blackColor !default;
 
 $navInactiveColor: lighten($blackColor, 20%) !default;
 $navActiveColor: $blackColor;
+$navHeaderColor: lighten($blackColor, 60%) !default;
+
+$sidebarBorderColor: darken($lightColor, 10%) !default;
 
 $fillNavInactiveColor: darken($lightColor, 20%) !default;
 $fillNavActiveColor: $lightColor;
