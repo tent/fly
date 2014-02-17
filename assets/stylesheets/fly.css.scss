@@ -137,6 +137,25 @@ strong {
   }
 }
 
+.fill .nav-h {
+  > ul {
+    > li {
+      color: $fillNavInactiveColor;
+
+      a {
+        color: $fillNavInactiveColor;
+      }
+
+      &.active, &:hover {
+        color: $fillNavActiveColor;
+        a {
+          color: $fillNavActiveColor;
+        }
+      }
+    }
+  }
+}
+
 .pull-right {
   float: right;
 }

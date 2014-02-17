@@ -1,9 +1,13 @@
-$darkColor: #16171d !default;
+$blackColor: #16171d !default;
+$darkColor: $blackColor !default;
 $lightColor: #ffffff !default;
 $paraTextColor: #000000 !default;
 
-$navInactiveColor: darken($lightColor, 20%) !default;
-$navActiveColor: $lightColor;
+$navInactiveColor: lighten($blackColor, 20%) !default;
+$navActiveColor: $blackColor;
+
+$fillNavInactiveColor: darken($lightColor, 20%) !default;
+$fillNavActiveColor: $lightColor;
 
 $btnBorderColor: darken($lightColor, 20%) !default;
 $btnFillColor: darken($lightColor, 40%) !default;
