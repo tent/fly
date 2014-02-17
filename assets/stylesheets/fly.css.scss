@@ -116,6 +116,17 @@ footer {
   }
 }
 
+.btn-primary {
+  border-color: $primaryColor;
+  background-color: $primaryColor;
+  color: $lightColor;
+
+  &:hover {
+    border-color: darken($primaryColor, 4%);
+    background-color: darken($primaryColor, 4%);
+  }
+}
+
 // Layout
 
 .container-outer {
