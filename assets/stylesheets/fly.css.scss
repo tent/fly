@@ -122,6 +122,7 @@ input[type=text] {
 
   &:hover {
     border-color: lighten($btnBorderColor, 8%);
+    text-decoration: none;
   }
 
   &.fill {
