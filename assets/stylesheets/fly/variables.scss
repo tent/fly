@@ -12,6 +12,8 @@ $fillNavActiveColor: $lightColor;
 $btnBorderColor: darken($lightColor, 20%) !default;
 $btnFillColor: darken($lightColor, 40%) !default;
 
+$hrColor: darken($lightColor, 10%) !default;
+
 $maxContentWidth: 960px !default;
 
 $mediumBreakPoint: "screen and (max-width: 1152px)";

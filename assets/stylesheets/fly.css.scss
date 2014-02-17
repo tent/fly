@@ -33,6 +33,14 @@ strong {
   font-weight: 600;
 }
 
+hr {
+  border: 0;
+  border-top: 2px solid $hrColor;
+  font-size: 1em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
 .fill {
   background-color: $darkColor;
   color: $lightColor;
