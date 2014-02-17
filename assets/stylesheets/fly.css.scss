@@ -41,6 +41,15 @@ hr {
   margin-bottom: 4em;
 }
 
+footer {
+  color: $footerTextColor;
+  line-height: 1.5em;
+
+  a {
+    color: inherit;
+  }
+}
+
 .fill {
   background-color: $darkColor;
   color: $lightColor;
@@ -159,6 +168,19 @@ hr {
         a {
           color: $fillNavActiveColor;
         }
+      }
+    }
+  }
+}
+
+footer .nav-h {
+  > ul {
+    > li {
+      font-weight: inherit;
+      color: inherit;
+
+      a {
+        color: inherit;
       }
     }
   }

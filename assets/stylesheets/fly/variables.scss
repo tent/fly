@@ -2,6 +2,7 @@ $blackColor: #16171d !default;
 $darkColor: $blackColor !default;
 $lightColor: #ffffff !default;
 $paraTextColor: #000000 !default;
+$footerTextColor: $paraTextColor !default;
 
 $navInactiveColor: lighten($blackColor, 20%) !default;
 $navActiveColor: $blackColor;
