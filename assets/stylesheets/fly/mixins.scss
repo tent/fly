@@ -18,3 +18,15 @@
     clear: both;
   }
 }
+
+@mixin text-input {
+  font-size: 1em;
+  line-height: 1.5em;
+  height: 1.5em;
+  width: 14em;
+  border: 0.1em solid darken($lightColor, 6%);
+  border-radius: 0.125em;
+  padding: 0.25em;
+	outline: none;
+}
+

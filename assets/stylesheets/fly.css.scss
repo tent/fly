@@ -78,6 +78,10 @@ footer {
   }
 }
 
+input[type=text] {
+	@include text-input;
+}
+
 .fill {
   background-color: $darkColor;
   color: $lightColor;
