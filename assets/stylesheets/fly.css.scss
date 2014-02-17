@@ -26,6 +26,7 @@ p {
   font-size: 1.125em;
   font-weight: 400;
   line-height: 1.5em;
+  color: $paraTextColor;
 }
 
 strong {
@@ -37,6 +38,10 @@ strong {
   color: $lightColor;
 
   a {
+    color: $lightColor;
+  }
+
+  p {
     color: $lightColor;
   }
 }
