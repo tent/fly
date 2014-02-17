@@ -114,6 +114,11 @@ footer {
 
     .content {
       @include clearfix();
+
+      &.narrow {
+        width: 60%;
+        margin: 0 auto;
+      }
     }
 
 .top-bar {
