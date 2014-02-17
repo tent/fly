@@ -322,3 +322,13 @@ footer .nav-h {
     margin-right: 2em;
   }
 }
+
+@media #{$smallBreakPoint} {
+  .sidebar {
+    float: none;
+    width: auto;
+    height: auto;
+    border: none;
+    margin: 0;
+  }
+}
