@@ -99,6 +99,7 @@ footer {
   padding: 0.75em 1em;
   text-decoration: none;
   margin: 0.25em;
+  background-color: transparent;
 
   &:hover {
     border-color: lighten($btnBorderColor, 8%);
