@@ -29,6 +29,16 @@ p {
   color: $paraTextColor;
 }
 
+a, a:visited, a:active {
+  color: $primaryColor;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darken($primaryColor, 10%);
+}
+
 strong {
   font-weight: 600;
 }
