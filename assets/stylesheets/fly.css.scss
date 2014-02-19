@@ -140,6 +140,22 @@ input[type=text] {
     font-size: 1em;
     padding: 0.5em 1em;
   }
+
+  &[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+
+    &:hover {
+      border-color: $btnBorderColor;
+    }
+
+    &.fill {
+      &:hover {
+        border-color: $btnFillColor;
+        background-color: $btnFillColor;
+      }
+    }
+  }
 }
 
 .btn-primary {
@@ -150,6 +166,13 @@ input[type=text] {
   &:hover {
     border-color: darken($primaryColor, 4%);
     background-color: darken($primaryColor, 4%);
+  }
+
+  &[disabled] {
+    &:hover {
+      border-color: $primaryColor;
+      background-color: $primaryColor;
+    }
   }
 }
 
