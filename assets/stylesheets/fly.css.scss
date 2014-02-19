@@ -166,6 +166,7 @@ input[type=text] {
   &:hover {
     border-color: darken($primaryColor, 4%);
     background-color: darken($primaryColor, 4%);
+    color: $lightColor;
   }
 
   &[disabled] {
