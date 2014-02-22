@@ -294,8 +294,16 @@ footer .nav-h {
     list-style: none;
     padding: 0;
 
-    > li {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-left: 2em;
+      margin-right: 1em;
+    }
+
+    li {
       line-height: 1em;
+
       > a {
         display: block;
         padding: 0.5em 1em;
@@ -312,6 +320,20 @@ footer .nav-h {
         background-color: lighten($sidebarBorderColor, 4%);
         > a {
           color: $navActiveColor;
+        }
+      }
+
+      li a {
+        font-size: 0.9em;
+        &:before {
+          display: inline-block;
+          width: 6px;
+          height: 6px;
+          margin-right: 4px;
+          margin-bottom: 3px;
+          border-left: 1px solid $sidebarBorderColor;
+          border-bottom: 1px solid $sidebarBorderColor;
+          content: " ";
         }
       }
     }
