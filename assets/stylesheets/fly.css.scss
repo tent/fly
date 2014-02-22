@@ -76,6 +76,13 @@ strong {
   font-weight: 600;
 }
 
+ul, ol {
+  li {
+    color: $paraTextColor;
+    line-height: 1.5em;
+  }
+}
+
 hr {
   border: 0;
   border-top: 2px solid $hrColor;
@@ -219,6 +226,7 @@ input[type=text] {
 .nav-h {
   > ul, > ul > li {
     list-style: none;
+    line-height: 2em;
     margin: 0;
     padding: 0;
   }
@@ -287,6 +295,7 @@ footer .nav-h {
     padding: 0;
 
     > li {
+      line-height: 1em;
       > a {
         display: block;
         padding: 0.5em 1em;
